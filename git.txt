@@ -1,0 +1,10 @@
+git status -- to check whether that particular folder is a git repository or not
+git init -- to make that a git repository ,, 
+git add --a --> add all the files in this folder to staging area --a means all
+git commit -m "initial commit"
+
+git log -- see the changes
+rm -rf .git -- deletes all the files in the git repository
+
+git diff -- compares ur staging area with current working directory
+git diff --stage --> comapares ur previous and next files in the staging area
