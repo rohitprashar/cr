@@ -8,3 +8,10 @@ rm -rf .git -- deletes all the files in the git repository
 
 git diff -- compares ur staging area with current working directory
 git diff --stage --> comapares ur previous and next files in the staging area
+
+git remote add origin
+
+to add a ssh key 
+$ ssh-keygen -t rsa -b 4096 -C "rohitprashar21@gmail.com"
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDw3APXz6ZGt6PSd2502pBam3qavVKu9MteCtasrrxIbxFL5dvQI17UiRBoMOhpTOnwo0hNhmNu3HGvXuBSToIWlM2p2wJtVkDzzGu1LfCfGwRiytnl/EFXdaT9eEbohKm0Rk9B7QSZI0WIYEGKFzSGeq0s6scial4vJtuwNdOrCKMtQ2RSy//w1/Jzy4SxYCDUe3aZSzpRNH/d57v1sjT8qoUKlhk3rRcozkhjdpMdnkQGloD7LAM4ZXjn4iFJ/ckdWgq+oy0xzSbE4F1C51o7AfYAY+OKxmDJ85NYp8Be420W01Bw7GZgspT3UljlEiEwDaGsehj+1HqZqye3CopLOkRrU1ewfDRypnn4c/4U8BSrKKSV2Aa38fk6tBn3HKYAbQtgM4JGXJt91NE3b9wYbsSoxcHtpz9EsP0/EsEW242upRBiSB3ZpA5ODOcsC6E+jfe/zjB8vGORPWP2EzF1qarF3KTIeeXHQ3/flJQ8xI9x3KXYwL9Al0OuZId6vyDDGVhbMgEqKVauMU1jzMmprxQY0+G9NrA1pmmK5T/cyuQB+PMAUazLw0LDhEBuOtfsfMJFRWOpfGy98F21WLudCLdKdJHFvogBTsDmhxSnRoZ6IF957xmTH3zMbw0kri3V+Wt9Na6bkyHMG0TX55NWSKdFzqBMSutlKJjOf0e4ew== rohitprashar21@gmail.com
